@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap');
+
+body {
+  background-color: #4f4f4f;
+}
+
+.cal {
+  width: 320px;
+  height: 520px;
+  background-color: #242424;
+  position: absolute;
+  margin-left: 100px;
+  border-radius: 10px;
+  border: 1px black solid;
+  box-shadow: 5px 5px 12px 1px;
+  z-index: -1;
+}
+
+.dis {
+  background-color: #00a2bb;
+  ;
+  width: 300px;
+  height: 130px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+  color: black;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px 1px black;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#l1 {
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 30px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  height: 50px;
+  width: 100%;
+}
+
+#l2 {
+  font-size: 50px;
+  display: block;
+  height: 50px;
+  width: 280px;
+  text-align: right;
+  margin: 0px;
+}
+
+.kay {
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+
+.kay button {
+  width: 60px;
+  height: 60px;
+  margin: 6px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: 1px #00c4dd solid;
+  box-shadow: 0px 0px 6px 0.01px;
+  color: #00f6ff;
+  background-color: #333333;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+#kr {
+  border: 1px #0ccc00 solid;
+  box-shadow: 0px 0px 6px 0.01px;
+  color: #3fff00;
+  background-color: #333333;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+#kr:hover {
+  border: 1px #0ccc00 solid;
+  background-color: #444444;
+  box-shadow: 0px 0px 10px 0.05px;
+}
+
+#kr:active {
+  background-color: #333333;
+  color: #0ccc00;
+  border: 0.5px #333333 solid;
+  transform: scale(0.85);
+  box-shadow: 0px 0px 0px 0.00px;
+}
+
+
+.kay button:hover {
+  background-color: #444444;
+  box-shadow: 0px 0px 10px 0.05px;
+  color: #11f6ff;
+}
+
+.kay button:active {
+  background-color: #333333;
+  color: #00c4dd;
+  border: 0.5px #333333 solid;
+  transform: scale(0.85);
+  box-shadow: 0px 0px 0px 0.00px;
+}
+#ac{
+  width: 60px;
+  height: 30px;
+  color: #ff0000;
+  position: relative;
+  left: 230px;
+  border: 1px #dd0000 solid;
+  border-radius: 10px;
+}
+#ac:active {
+  background-color: #333333;
+  color: #cc0000;
+  border: 0.5px #333333 solid;
+  transform: scale(0.85);
+  box-shadow: 0px 0px 0px 0.00px;
